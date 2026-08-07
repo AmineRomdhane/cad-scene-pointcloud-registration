@@ -23,26 +23,22 @@ env/
 *.dae
 *.glb
 
-# Logs and temporary files
+# Temporary files
 *.tmp
 *.bak
-*.log
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Keep folder documentation and small outputs
+# Keep small documentation and output files
 !data/
 !data/README.md
 !outputs/
-!outputs/README.md
 !outputs/transforms/
-!outputs/transforms/README.md
 !outputs/transforms/*.txt
+!outputs/transforms/*.csv
 !outputs/logs/
-!outputs/logs/README.md
-!outputs/logs/*.csv
 !outputs/logs/*.txt
+!outputs/logs/*.csv
 !outputs/registered_clouds/
-!outputs/registered_clouds/README.md
