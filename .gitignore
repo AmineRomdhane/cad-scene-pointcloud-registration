@@ -1,17 +1,27 @@
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 .venv/
 venv/
 env/
 
+# Local data files
 data/*
 !data/.gitkeep
 
+# Output files
 outputs/*
 !outputs/.gitkeep
 
+# Large point cloud / CAD files
 *.ply
 *.pcd
+*.las
+*.laz
 *.stl
 *.obj
 *.step
@@ -19,5 +29,11 @@ outputs/*
 *.iges
 *.IGES
 
+# Logs and temporary files
 *.log
+*.tmp
+*.bak
+
+# OS files
 .DS_Store
+Thumbs.db
