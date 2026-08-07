@@ -9,14 +9,6 @@ __pycache__/
 venv/
 env/
 
-# Local data files
-data/*
-!data/.gitkeep
-
-# Output files
-outputs/*
-!outputs/.gitkeep
-
 # Large point cloud / CAD files
 *.ply
 *.pcd
@@ -28,12 +20,29 @@ outputs/*
 *.STEP
 *.iges
 *.IGES
+*.dae
+*.glb
 
 # Logs and temporary files
-*.log
 *.tmp
 *.bak
+*.log
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Keep folder documentation and small outputs
+!data/
+!data/README.md
+!outputs/
+!outputs/README.md
+!outputs/transforms/
+!outputs/transforms/README.md
+!outputs/transforms/*.txt
+!outputs/logs/
+!outputs/logs/README.md
+!outputs/logs/*.csv
+!outputs/logs/*.txt
+!outputs/registered_clouds/
+!outputs/registered_clouds/README.md
