@@ -8,15 +8,6 @@ The goal is to convert or subsample CAD geometry into a point cloud, register it
 
 In the project, a real scene was segmented into point cloud clusters. Each cluster represented a candidate object or scene part. CAD models were then converted or sampled into point clouds and aligned with these segmented scene clusters.
 
-The workflow was used to:
-
-- generate CAD proxy point clouds.
-- segment real scene point clouds into clusters.
-- register CAD point clouds to scene clusters.
-- refine the alignment using ICP.
-- save transformation matrices.
-- export registered CAD point clouds.
-- visually inspect the CAD-to-scene alignment.
 
 ## Scene Registration Example
 
