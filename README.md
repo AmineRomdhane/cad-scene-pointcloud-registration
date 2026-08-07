@@ -1,12 +1,12 @@
 # CAD-to-Scene Point Cloud Registration
 
-This repository contains the point cloud registration pipeline used in the GMC6003 project to align CAD-derived point clouds with segmented scene point clouds.
+This repository contains the point cloud registration pipeline used to align CAD-derived point clouds with segmented scene point clouds.
 
 The goal is to convert or subsample CAD geometry into a point cloud, register it to a segmented object extracted from a real scene, save the estimated transformation matrix, and export the aligned CAD point cloud.
 
 ## Project Context
 
-In the GMC6003 project, a real scene was segmented into point cloud clusters. Each cluster represented a candidate object or scene part. CAD models were then converted or sampled into point clouds and aligned with these segmented scene clusters.
+In the project, a real scene was segmented into point cloud clusters. Each cluster represented a candidate object or scene part. CAD models were then converted or sampled into point clouds and aligned with these segmented scene clusters.
 
 The workflow was used to:
 
