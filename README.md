@@ -42,3 +42,19 @@ src/cad_mesh_surface_to_proxy_pcd.py
 src/convert_dae_to_ply.py
 src/convert_step_to_ply_freecad.py
 src/segment_scene_v11_point_merge.py
+
+## Scene Registration Example
+
+The following figures show the scene point cloud before and after CAD-to-scene registration.
+
+### Before CAD Registration
+
+The scene initially contains only the segmented point cloud clusters extracted from the real scan.
+
+![Scene point cloud before CAD registration](docs/images/scene_before_registration.png)
+
+### After CAD Registration
+
+After registration, the CAD models are aligned with the segmented scene clusters using the estimated transformation matrices.
+
+![Scene point cloud after CAD registration](docs/images/scene_after_registration.png)
